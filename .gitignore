@@ -1,0 +1,4 @@
+node_modules/
+datafast-export/
+*.log
+.DS_Store

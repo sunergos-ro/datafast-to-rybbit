@@ -1,0 +1,36 @@
+{
+  "name": "datafast-to-rybbit",
+  "version": "0.1.0",
+  "description": "Export DataFast analytics to Umami-format CSV for Rybbit import",
+  "type": "module",
+  "license": "MIT",
+  "bin": {
+    "datafast-to-rybbit": "./bin/datafast-to-rybbit.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "LICENSE",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "export": "node bin/datafast-to-rybbit.js export",
+    "validate": "node bin/datafast-to-rybbit.js validate",
+    "test": "node --test test/**/*.test.js"
+  },
+  "keywords": [
+    "datafast",
+    "rybbit",
+    "analytics",
+    "umami",
+    "migration",
+    "csv"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sunergos-ro/datafast-to-rybbit"
+  }
+}
